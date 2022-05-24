@@ -1,5 +1,4 @@
 from script import cv2, datetime, os
-from script import save_to_github
 from script.take_pictures import take_pictures
 from script.save_to_github import pushToGitHub
 
