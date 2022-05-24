@@ -8,4 +8,3 @@ def pushToGitHub(current_time):
         os.system("git add .")
         os.system('git commit -m "new photos"')
         os.system("git push -u origin main")
-pushToGitHub(dt.now())
