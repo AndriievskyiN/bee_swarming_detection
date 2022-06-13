@@ -1,7 +1,7 @@
 import tensorflow as tf
 import cv2
 
-model  = tf.keras.models.load_model('models/model3.h5')
+model  = tf.keras.models.load_model('models/model2.h5')
 
 # Create a function to predict bee swarming based on the image using the model
 def predict_bee_swarming(img_path):
