@@ -1,10 +1,8 @@
-from numpy import TooHardError
 import tensorflow as tf
 import cv2
 
 import requests
 import imghdr
-import sqlite3
 from datetime import datetime
 
 from predict import predict_bee_swarming
