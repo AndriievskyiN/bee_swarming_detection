@@ -1,2 +1,5 @@
 script/__pycache__
 notifiers/hidden.py
+notifiers/__pycache__
+.ipynb_checkpoints
+.DS_Store
