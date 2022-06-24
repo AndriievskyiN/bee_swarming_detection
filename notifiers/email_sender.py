@@ -4,12 +4,12 @@ from email.message import EmailMessage
 import os
 import imghdr
 
-def send_email(img_path, email_address, email_password):
+def send_email(img_path,time, email_address, email_password):
     msg = EmailMessage()
     msg["Subject"] = "Bee swarming has been classified"
     msg["From"] = email_address
     msg["To"] = "andriievskyiwork@gmail.com"
-    msg.set_content("Bee swarming has bee classified from the attached image, take a look if it is true")
+    msg.set_content(f"Bee swarming has bee classified on {time} from the attached image, take a look if it is true")
 
     with open(img_path, "rb") as f:
         file_data = f.read()

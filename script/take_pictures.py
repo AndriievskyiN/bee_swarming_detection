@@ -2,7 +2,7 @@
 import cv2
 
 import os
-from datetime import date, datetime
+from datetime import datetime
 
 # Reading the image from the camera and saving it to our clear_sky folder if it's later than 5 AM, and not later than 9 PM
 def take_pictures(current_time):
